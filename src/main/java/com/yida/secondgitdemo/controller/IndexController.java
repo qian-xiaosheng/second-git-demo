@@ -17,7 +17,7 @@ public class IndexController {
 
     @GetMapping("/world")
     public String world() {
-        System.out.println("这个异界真的很奇怪！");
+        System.out.println("这个异界真的很奇怪！888888");
         return "world";
     }
 }
