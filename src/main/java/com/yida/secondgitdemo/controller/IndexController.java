@@ -8,6 +8,8 @@ public class IndexController {
     @GetMapping({"/index","","/"})
     public String index() {
         System.out.println("这个git，真是太好用了！！！");
+        System.out.println("这个git，真是太好用了2！！！");
+        System.out.println("这个git，真是太好用了3！！！");
         return "hello world";
     }
 }
