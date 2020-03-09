@@ -19,4 +19,10 @@ public class IndexController {
     public String hello() {
         return "宜达互联";
     }
+
+    @GetMapping("/world")
+    public String world() {
+        System.out.println("这个异界真的很奇怪！888888");
+        return "world";
+    }
 }
