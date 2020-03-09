@@ -11,6 +11,7 @@ public class IndexController {
         System.out.println("这个git，真是太好用了2！！！");
         System.out.println("这个git，真是太好用了3！！！");
         System.out.println("这个git，真是太好用了4！！！");
+        System.out.println("这个git，真是太好用了5！！！");
         return "hello world";
     }
 }
