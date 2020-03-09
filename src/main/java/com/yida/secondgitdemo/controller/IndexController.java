@@ -1,6 +1,7 @@
 package com.yida.secondgitdemo.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
@@ -24,5 +25,10 @@ public class IndexController {
     public String world() {
         System.out.println("这个异界真的很奇怪！888888");
         return "world";
+    }
+
+    @PutMapping("/ssm")
+    public String ssm() {
+        return "ssm";
     }
 }
