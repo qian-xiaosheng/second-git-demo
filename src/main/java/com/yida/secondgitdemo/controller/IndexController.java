@@ -1,6 +1,7 @@
 package com.yida.secondgitdemo.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
@@ -11,7 +12,23 @@ public class IndexController {
         System.out.println("这个git，真是太好用了2！！！");
         System.out.println("这个git，真是太好用了3！！！");
         System.out.println("这个git，真是太好用了4！！！");
-        System.out.println("这个git，真是太好用了5！！！");
+        System.out.println("这个git，真是太好用了55555！！！");
         return "hello world";
+    }
+
+    @GetMapping("/hello")
+    public String hello() {
+        return "宜达互联";
+    }
+
+    @GetMapping("/world")
+    public String world() {
+        System.out.println("这个异界真的很奇怪！888888");
+        return "world";
+    }
+
+    @PutMapping("/ssm")
+    public String ssm() {
+        return "ssm";
     }
 }
