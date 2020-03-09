@@ -14,4 +14,10 @@ public class IndexController {
         System.out.println("这个git，真是太好用了5！！！");
         return "hello world";
     }
+
+    @GetMapping("/world")
+    public String world() {
+        System.out.println("这个异界真的很奇怪！");
+        return "world";
+    }
 }
