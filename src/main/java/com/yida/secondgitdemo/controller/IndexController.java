@@ -14,4 +14,9 @@ public class IndexController {
         System.out.println("这个git，真是太好用了5！！！");
         return "hello world";
     }
+
+    @GetMapping("/hello")
+    public String hello() {
+        return "宜达互联";
+    }
 }
