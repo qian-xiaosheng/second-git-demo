@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class IndexController {
     @GetMapping({"/index","","/"})
     public String index() {
+        System.out.println("这个git，真是太好用了！！！");
         return "hello world";
     }
 }
