@@ -18,7 +18,7 @@ public class IndexController {
 
     @GetMapping("/hello")
     public String hello() {
-        return "宜达互联";
+        return "宜达互联科技有限公司";
     }
 
     @GetMapping("/world")
